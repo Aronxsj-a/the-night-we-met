@@ -1,0 +1,57 @@
+name: Deploy story to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Prepare the release and link preview
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          test -n "$PAGES_BASE_URL"
+          mkdir site
+          install -m 644 index.html style.css app.js audio.js opening.js opening.css chapters.js chapters.css ending.js ending.css site/
+          mkdir site/assets
+          install -m 644 assets/moon.svg assets/welcome.svg assets/room-chariz.svg assets/room-raul.svg assets/sketch-closed.svg assets/sketch-open.svg assets/mall.svg assets/ending-sky.svg assets/social-preview.png site/assets/
+          python3 - <<'PY'
+          from html import escape
+          from os import environ
+          from pathlib import Path
+
+          index = Path("site/index.html")
+          base = environ["PAGES_BASE_URL"].rstrip("/")
+          assert base.startswith("https://"), base
+          html = index.read_text(encoding="utf-8")
+          relative = 'property="og:image" content="assets/social-preview.png"'
+          assert html.count(relative) == 1
+          image = escape(f"{base}/assets/social-preview.png", quote=True)
+          index.write_text(
+              html.replace(relative, f'property="og:image" content="{image}"'),
+              encoding="utf-8"
+          )
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deploy

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 470" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="table" x2=".8" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#263445"/><stop offset=".53" stop-color="#352d37"/><stop offset="1" stop-color="#131d2c"/></linearGradient>
+    <linearGradient id="cover" x2="1" y2=".9" gradientUnits="objectBoundingBox"><stop stop-color="#264454"/><stop offset=".65" stop-color="#202f43"/><stop offset="1" stop-color="#172435"/></linearGradient>
+    <radialGradient id="lamplight"><stop stop-color="#eaae69" stop-opacity=".51"/><stop offset="1" stop-color="#eaae69" stop-opacity="0"/></radialGradient>
+    <linearGradient id="phone" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#352d49"/><stop offset=".5" stop-color="#23273d"/><stop offset="1" stop-color="#151e2e"/></linearGradient>
+    <filter id="noise"><feTurbulence baseFrequency=".74" numOctaves="3" seed="21" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <path fill="url(#table)" d="M0 0h420v470H0z"/>
+  <g fill="none" stroke="#ca9d87" opacity=".13">
+   <path d="M-20 64c115 25 224 9 460-28M-18 130c118 15 265 11 457-14M-18 166c119 17 300 9 471-11M-34 223c135 30 294-5 483-26m-472 85c154 10 230 16 478-30m-471 89c158 16 312 6 473-38m-509 62c127 18 299 24 509-17m-509 71c162 21 303 15 509-20m-499 51c169 23 271 13 497-19"/>
+   <path d="M166 52c-19-5-41 1-50 4 17 1 34 1 50-4zM303 361c21-5 46-1 55 3-21 3-41 4-55-3zM47 245c12-4 29-6 51-1-21 1-37 2-51 1z"/>
+  </g>
+  <ellipse cx="354" cy="56" rx="237" ry="194" fill="url(#lamplight)"/>
+  <ellipse cx="173" cy="350" rx="122" ry="32" fill="#101823" opacity=".54" transform="rotate(-10 173 350)"/>
+  <g transform="rotate(-12 170 222)">
+    <rect x="55" y="94" width="236" height="272" rx="11" fill="#0d1726" opacity=".64"/>
+    <rect x="54" y="90" width="230" height="270" rx="12" fill="#918278"/>
+    <path d="M58 332h221v16a9 9 0 0 1-9 9H63Z" fill="#d3bba0"/>
+    <path d="M73 344h198m-187 5h187m-203 4h202" stroke="#846c68" opacity=".52" stroke-width="1"/>
+    <rect x="48" y="79" width="233" height="266" rx="10" fill="url(#cover)" stroke="#5c7980"/>
+    <path d="M65 80v264m5-262v258" stroke="#78939a" opacity=".33"/>
+    <rect x="80" y="99" width="183" height="226" rx="4" fill="none" stroke="#c0a98b" opacity=".5"/>
+    <rect x="84" y="103" width="175" height="218" rx="3" fill="none" stroke="#c0a98b" opacity=".2"/>
+    <g fill="#dfc195">
+      <path d="M182 134c-4 15-17 25-31 24 4 7 12 11 20 11 13 0 23-11 23-24 0-8-4-14-10-18Z"/>
+      <path d="M137 147l2 5 5 2-5 2-2 5-1-5-5-2 5-2zm63 33 2 4 5 2-5 2-2 5-1-5-5-2 5-2zM208 141l1 3 4 1-4 1-1 4-1-4-4-1 4-1z" opacity=".8"/>
+      <circle cx="153" cy="179" r="1.5"/><circle cx="122" cy="178" r="1.6"/><circle cx="223" cy="157" r="1.3"/><circle cx="174" cy="193" r="1.6"/>
+      <text x="174" y="224" text-anchor="middle" fill="#dfc195" font-family="Georgia,serif" font-size="24" font-style="italic">Sketchbook</text>
+    </g>
+    <path d="M102 283l29-15 15 7 20-27 20 17 9-12 31 32m-118 3 41-3 24-13 13 11 27-2" fill="none" stroke="#c2a991" opacity=".57" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="rotate(13 338 293)">
+    <rect x="300" y="185" width="80" height="161" rx="13" fill="#101621" opacity=".55"/>
+    <rect x="298" y="181" width="77" height="157" rx="12" fill="#131b28" stroke="#827481" stroke-opacity=".75"/>
+    <rect x="302" y="186" width="69" height="147" rx="9" fill="url(#phone)"/>
+    <path d="M323 189h26l-4 4h-18z" fill="#151926"/>
+    <path d="M323 328h27" stroke="#766a82" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="336.5" cy="245" r="22" fill="#7b6a87" opacity=".12"/>
+    <path d="M324 232h25a5 5 0 0 1 5 5v13a5 5 0 0 1-5 5h-11l-6 6v-6h-8a5 5 0 0 1-5-5v-13a5 5 0 0 1 5-5z" fill="#aa96b0" opacity=".86"/>
+    <path d="M329 244h.1m7.4 0h.1m7.4 0h.1" stroke="#3f344b" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(19 345 126)">
+    <path d="M341 72h7v111h-7z" fill="#b98e65"/>
+    <path d="M344 72h2v111h-2z" fill="#f2c38c" opacity=".61"/>
+    <path d="M341 183h7l-3.5 13z" fill="#d5b093"/><path d="M343.2 191.4h2.6l-1.3 4.6z" fill="#342938"/>
+    <path d="M341 73h7v9h-7z" fill="#d19a94"/>
+  </g>
+  <path d="M0 0h420v470H0z" filter="url(#noise)" opacity=".077" style="mix-blend-mode:soft-light"/>
+</svg>
