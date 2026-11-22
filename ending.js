@@ -46,7 +46,7 @@
     </div>`;
 
   const sky = (alt = '') => `<img class="ending-sky-art" src="assets/ending-sky.svg" width="420" height="748" alt="${alt}">`;
-  const sharedSkyAlt = 'Two people look out over a shared, star-filled sky.';
+  const sharedSkyAlt = 'Chariz and his girlfriend Raul sit together under the stars.';
 
   const preloadArt = () => {
     for (const source of ['room-chariz.svg', 'room-raul.svg', 'sketch-open.svg', 'mall.svg', 'ending-sky.svg']) {
@@ -115,7 +115,7 @@
           <div><h2>Raul</h2><p>Anniversary letter · draft</p></div>
         </header>
         <div class="ending-chat-history">
-          <p class="ending-chat-timestamp">From the archive<br>NOV 22, 2021 AT 11:10 PM</p>
+          <p class="ending-chat-timestamp">From Chariz to Raul · Archive<br>NOV 22, 2021 AT 11:10 PM</p>
           <div class="ending-chat-bubble">Kumain kana mahal?</div>
           <p class="ending-chat-timestamp">NOV 22, 2026</p>
           <div class="ending-chat-message" aria-live="polite"></div>
@@ -150,6 +150,7 @@
             <article class="ending-letter-paper" tabindex="-1" aria-labelledby="ending-letter-title">
               <p class="eyebrow">Anniversary letter · draft</p>
               <h2 id="ending-letter-title">For Raul</h2>
+              <p class="ending-letter-byline">From Chariz</p>
               <p class="ending-letter-words${last ? ' ending-letter-goodbye' : ''}">${text}</p>
               <div class="ending-letter-steps" role="img" aria-label="Page ${index + 1} of ${panels.length}">
                 ${panels.map((_, marker) => `<span class="${marker === index ? 'is-current' : ''}" aria-hidden="true"></span>`).join('')}

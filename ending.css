@@ -431,6 +431,12 @@
   font: 400 clamp(24px, 7vw, 32px)/1.02 "Segoe Print", "Bradley Hand", cursive;
 }
 
+.ending-letter-byline {
+  color: #655063;
+  font-size: .85rem;
+  margin: 0 0 .65rem;
+}
+
 .ending-letter-words {
   font: 400 clamp(16px, 5vw, 19px)/1.45 var(--serif, Georgia, serif);
 }

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800">
 <title>A quiet bedroom, lit by moonlight and a phone</title>
-<desc>A young woman in silhouette sits on her bed beside an open view of the night sky.</desc>
+<desc>Chariz sits on his bed with a phone, wearing a rose-pink polo beneath the moonlit window.</desc>
 <defs>
   <linearGradient id="wall" x2="0.76" y2="1">
     <stop stop-color="#1c2941"/><stop offset=".43" stop-color="#243752"/><stop offset=".83" stop-color="#3c3848"/><stop offset="1" stop-color="#263146"/>
@@ -30,7 +30,7 @@
     <stop stop-color="#6b5157"/><stop offset=".4" stop-color="#4f404a"/><stop offset="1" stop-color="#302d3d"/>
   </linearGradient>
   <linearGradient id="sweater" x2="1" y2=".82">
-    <stop stop-color="#68748e"/><stop offset=".46" stop-color="#434761"/><stop offset=".8" stop-color="#2b304a"/><stop offset="1" stop-color="#53526a"/>
+    <stop stop-color="#b3798a"/><stop offset=".46" stop-color="#915b72"/><stop offset=".8" stop-color="#573d57"/><stop offset="1" stop-color="#77516b"/>
   </linearGradient>
   <linearGradient id="hair" x2=".69" y2="1">
     <stop stop-color="#393343"/><stop offset=".29" stop-color="#242638"/><stop offset=".74" stop-color="#151a2c"/><stop offset="1" stop-color="#263048"/>
@@ -174,8 +174,10 @@
   <path d="M174 380c-6 21-11 45-7 68 3 18 11 29 25 33m-8-54q8 37 24 47m-13-56q10 24 27 32m-44 26q26 13 54-3m-17-101q14 15 14 43" stroke="#9f9db2" stroke-opacity=".38" stroke-width="1.3"/>
   <path d="M204 352q13 16 33 33l18-15-11-20-12 1-8-16-20 5Z" fill="url(#skin)" stroke="#33354a" stroke-width="1.4"/>
   <path d="M210 347q16 16 35 27" stroke="#75768c" stroke-opacity=".7"/>
-  <path d="M200 356c6 17 23 22 42 30l11-10-12 19c-16-5-34-14-44-32Z" fill="#363c58"/>
-  <path d="M226 387c2-14 10-20 22-16 11 4 15 16 20 31l9 23 22-29 16 9c-12 26-26 51-49 49-17-1-29-20-39-40-6-10-6-17-1-27Z" fill="url(#sweater)" stroke="#292f48" stroke-width="2"/>
+  <path d="M199 355q17 19 40 29l13-11-4 14-11 9-6-10-14 3-22-26Z" fill="#b67f90"/>
+  <path d="M226 387c2-14 10-20 22-16 11 4 15 16 20 31l9 23 22-29 16 9c-12 26-26 51-49 49-17-1-29-20-39-40-6-10-6-17-1-27Z" fill="url(#skin)" stroke="#292f48" stroke-width="2"/>
+  <path d="M226 387c2-14 10-20 22-16 11 4 15 16 20 31l2 5-29 14-14-7c-6-10-6-17-1-27Z" fill="url(#sweater)" stroke="#47364d" stroke-width="1.5"/>
+  <path d="M232 416q19 1 36-12" fill="none" stroke="#c08c9e" stroke-opacity=".58" stroke-width="1.4"/>
   <path d="M226 389c-1 17 13 40 25 49m-15-42c2 13 9 25 17 34m-3-10c8 13 13 16 23 16m4-2q13-9 30-33m-4 4-11-7m13 12-12-7" stroke="#a09db1" stroke-opacity=".45" stroke-width="1.2"/>
   <path d="M298 399c6-4 8-9 11-15l3-12c1-3 4-3 5 1l-1 9 9-10c3-3 5 0 3 3l-4 10 5-4c4-4 7-1 4 3l-5 9c-3 7-8 11-15 14Z" fill="url(#skin)" stroke="#514d63" stroke-width="1.2"/>
   <path d="M307 393l7 3m4-12 3-3m1 7 5-5m-5 12 5-3" stroke="#d2cad4" stroke-opacity=".56" stroke-width=".9"/>
@@ -188,10 +190,8 @@
   <path d="M198 308c-7 10-7 22-1 35l16 21c8 7 19 8 30-8 4-6 13-4 12-10l-4-9c1-13-4-27-15-34-11-7-29-7-38 5Z" fill="url(#skin)" stroke="#424057" stroke-width="1.3"/>
   <path d="M243 329c3 2 6 4 8 8m-4 15-4 1" stroke="#b6acba" stroke-opacity=".68"/>
   <path d="M245 333l3 2" stroke="#3d3c52" stroke-width="1.2"/>
-  <path d="M201 293c21-11 43-4 49 16l-5 4c-5-2-7-6-15-6 5 5 8 15 6 21-3 28-34 29-27 58 3 16-2 32-12 40-18 11-36 1-52 11 6-15 3-25 2-41-1-14 6-21 8-39 2-17 4-24 12-32 7-14 12-26 34-32Z" fill="url(#hair)" stroke="#242b43" stroke-width="1.8"/>
-  <path d="M183 309c15-14 37-19 50-11m-61 34c14-12 22-27 37-30m-14 20c-10 8-14 21-21 38-7 18-12 24-12 48 0 9-3 15-6 21m60-113c2 13-14 29-18 42-8 19 5 39-13 61m39-107c7 7 1 18 0 21-9 12-19 17-19 34 0 10 4 22 0 32" stroke="#7d7288" stroke-opacity=".37" stroke-width="1.4"/>
-  <path d="M212 293c12-3 25 2 32 12m-46 2c-13 6-24 16-28 26m-9 45c-4 14-4 30-2 38m43-57c-3 5-4 12-2 21" stroke="#c29da9" stroke-opacity=".32"/>
-  <path d="M237 309q7 7 7 14" stroke="#b7afc9" stroke-opacity=".46"/>
+  <path d="M190 303q6-12 22-14l-3-5q14-2 25 5 9-1 16 8l4 10-7 1 5 7-9-1-6-8q-9 17-27 21l-5 14-5-6-2 7q-9-8-11-21-4-7 3-18Z" fill="url(#hair)" stroke="#242b43" stroke-width="1.8"/>
+  <path d="M190 311q9-17 31-19m-26 26q9-16 33-22m4 0q-9 15-22 20m24-21q8 0 13 8" fill="none" stroke="#827984" stroke-opacity=".52" stroke-width="1.4"/>
   <path d="M244 352c-2 5-6 9-10 11" stroke="#c5c4d9" stroke-opacity=".63"/>
 
   <path d="M0 562h450v238H0Z" fill="url(#bottom)"/>

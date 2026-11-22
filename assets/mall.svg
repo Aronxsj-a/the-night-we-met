@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="800" viewBox="0 0 450 800">
-  <title>A quiet mall atrium with two people seen from behind</title>
+  <title>Chariz and Raul on their first mall date</title>
+  <desc>Chariz stands on the left in a pink polo and dark trousers. Raul stands on the right in a navy floral dress, her dark hair down.</desc>
   <defs>
     <linearGradient id="wall" x2="0" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#46343b"/>
@@ -33,14 +34,14 @@
       <stop offset="1" stop-color="#1c1927" stop-opacity=".76"/>
     </linearGradient>
     <linearGradient id="dress" x2=".8" y2="1" gradientUnits="objectBoundingBox">
-      <stop stop-color="#b17670"/>
-      <stop offset=".52" stop-color="#8f5457"/>
-      <stop offset="1" stop-color="#633b4c"/>
+      <stop stop-color="#516783"/>
+      <stop offset=".52" stop-color="#354969"/>
+      <stop offset="1" stop-color="#28304e"/>
     </linearGradient>
     <linearGradient id="jacket" x2=".8" y2="1" gradientUnits="objectBoundingBox">
-      <stop stop-color="#507269"/>
-      <stop offset=".52" stop-color="#3a5554"/>
-      <stop offset="1" stop-color="#324249"/>
+      <stop stop-color="#ce9297"/>
+      <stop offset=".52" stop-color="#b07484"/>
+      <stop offset="1" stop-color="#835867"/>
     </linearGradient>
     <radialGradient id="radiance" cx=".52" cy=".41" r=".59" gradientUnits="objectBoundingBox">
       <stop stop-color="#ffdfa0" stop-opacity=".72"/>
@@ -176,31 +177,35 @@
     <use href="#plant" transform="translate(386 500) scale(.64)"/>
     <ellipse cx="222" cy="550" rx="72" ry="13" fill="#513a41" opacity=".36"/>
     <ellipse cx="217" cy="550" rx="53" ry="5" fill="#4b363d" opacity=".49"/>
-    <!-- Two anonymous figures viewed from behind -->
+    <!-- Chariz on the left, Raul on the right -->
     <g stroke-linecap="round" stroke-linejoin="round">
-      <path d="M195 477q-7 22-9 48l-3 18q0 6 7 6l7-5 7-27 7-39Z" fill="#49353e"/>
-      <path d="m205 474 2 59-2 12 9 3 4-5 1-24-1-43Z" fill="#573945"/>
-      <path d="M183 541q4 3 12 0l-1 5q-7 7-14 4l-2-3Zm23 1q5 3 12 0l4 5q0 5-12 4l-7-3Z" fill="#49363d"/>
-      <path d="M187 422q-8 1-10 12l-3 34q0 5 4 7l6-3 5-30Z" fill="#8e5660" stroke="#af7970" stroke-width="1"/>
-      <path d="M214 420q9 0 11 12l3 32q1 4-4 8l-5-4-6-24Z" fill="#80515e"/>
-      <path d="M173 467q-1 10 1 13l5 2 4-6-1-8Zm47 0 3 9q2 5 6 3l2-4-4-12Z" fill="#ba8670"/>
-      <path d="M195 414q1 5-8 8-3 7-2 16l3 18-7 34q20 10 43 0l-7-35 3-21q0-9-7-13l-6-3-1-7Z" fill="url(#dress)" stroke="#bc8274" stroke-width="1.1"/>
-      <path d="M186 448q15 7 32 3m-32 7q15 6 30 2m-23 6-3 21m11-22-1 25m9-25 4 25" fill="none" stroke="#c08a7b" stroke-opacity=".52" stroke-width="1"/>
-      <path d="M191 387q-9 4-11 16l1 24q9 8 21 2 10 6 17 0l-1-13q3-27-9-32-9-5-18 3Z" fill="#554049" stroke="#bb8871" stroke-width="1.15"/>
-      <path d="M181 418q-1-22 13-30m-9 36q2-12 5-21m7 25q6-15 2-32m9 32q3-9 0-23m7 7q0-15-8-22" fill="none" stroke="#846051" stroke-width="1"/>
-      <path d="M184 402q3-14 14-17m12 4 4 4" fill="none" stroke="#d69d79" stroke-opacity=".74" stroke-width=".8"/>
+      <g transform="translate(-49)" data-character="chariz">
       <path d="M236 479q-1 17 3 41l-2 25 8 5 6-3 3-24-1-38Z" fill="#41434a" stroke="#6d6158" stroke-width="1"/>
       <path d="m250 484 5 30 4 30 7 4 6-6-2-29-4-32Z" fill="#4c494f" stroke="#71665f" stroke-width="1"/>
       <path d="M237 542q4 5 14 2l1 6q-10 4-17 0l-1-3Zm21 1q6 2 13-2l4 8q-6 5-16 1Z" fill="#463b45"/>
-      <path d="M240 413q-12 2-12 15l2 37 5 10 6-5-2-23Z" fill="#45635c" stroke="#849477" stroke-width=".9"/>
-      <path d="M261 412q11 1 13 14l1 41-5 10-7-5 2-23Z" fill="#3e5553" stroke="#727a63" stroke-width="1"/>
-      <path d="m231 464 7 1 1 9-3 7-5-4Zm38 3 6 1-1 11q-4 4-6-1Z" fill="#ad795f"/>
-      <path d="M245 406q-2 6-10 10l-2 23 3 19-2 26q16 7 35 0l-3-26 5-25q-2-16-12-19l-3-8Z" fill="url(#jacket)" stroke="#80957d" stroke-width="1"/>
-      <path d="M241 414q6 8 20 0m-26 29q3 9 4 16m28-16q-3 9-4 18m-16-35q2 20 1 44m-12 10q15 6 31 1" stroke="#899979" stroke-opacity=".51" fill="none" stroke-width="1"/>
+      <path d="M240 413q-12 2-12 15l1 14 12 1-2-18Z" fill="#b47d89" stroke="#d2a09d" stroke-width=".9"/>
+      <path d="M261 412q11 1 13 14l1 17-12 1 1-16Z" fill="#a36d80" stroke="#bd8c91" stroke-width="1"/>
+      <path d="m229 442 11 1-2 27-2 11-5-4Zm35 1 11-1-1 37q-4 4-6-1Z" fill="#ad795f"/>
+      <path d="M245 406q-2 6-10 10l-2 23 3 19-2 26q16 7 35 0l-3-26 5-25q-2-16-12-19l-3-8Z" fill="url(#jacket)" stroke="#ce9b97" stroke-width="1"/>
+      <path d="M241 414q6 8 20 0m-26 29q3 9 4 16m28-16q-3 9-4 18m-16-35q2 20 1 44m-12 10q15 6 31 1" stroke="#e1ada5" stroke-opacity=".51" fill="none" stroke-width="1"/>
       <path d="M242 400q0-11 9-13 12 0 13 12l-2 9q-5 7-11 8-9-3-10-9Z" fill="#a77862"/>
       <path d="M239 396q-2-10 6-15 8-5 17 1 7 5 4 17l-4 7-5 1-2 3-7-1-3-4-4 1Z" fill="#514344" stroke="#a18066" stroke-width="1"/>
       <path d="M241 392q4-9 13-11m-7 25q7-1 11-9m1-10 6 5" fill="none" stroke="#7e6254"/>
       <path d="M241 391q3-7 10-9m11 4 2 3" fill="none" stroke="#d1a17b" stroke-opacity=".57" stroke-width=".7"/>
+      </g>
+      <g transform="translate(49)" data-character="raul">
+      <path d="M195 477q-7 22-9 48l-3 18q0 6 7 6l7-5 7-27 7-39Z" fill="#b27c70"/>
+      <path d="m205 474 2 59-2 12 9 3 4-5 1-24-1-43Z" fill="#a97568"/>
+      <path d="M183 541q4 3 12 0l-1 5q-7 7-14 4l-2-3Zm23 1q5 3 12 0l4 5q0 5-12 4l-7-3Z" fill="#49363d"/>
+      <path d="M187 422q-8 1-10 12l-3 34q0 5 4 7l6-3 5-30Z" fill="#b68472" stroke="#af7970" stroke-width="1"/>
+      <path d="M214 420q9 0 11 12l3 32q1 4-4 8l-5-4-6-24Z" fill="#a87668"/>
+      <path d="M173 467q-1 10 1 13l5 2 4-6-1-8Zm47 0 3 9q2 5 6 3l2-4-4-12Z" fill="#ba8670"/>
+      <path d="M195 414q1 5-8 8-3 7-2 16l3 18-10 66q23 11 48 0l-9-67 3-21q0-9-7-13l-6-3-1-7Z" fill="url(#dress)" stroke="#8492a6" stroke-width="1.1"/>
+      <path d="M186 448q15 7 32 3m-32 7q15 6 30 2m-23 6-3 21m11-22-1 25m9-25 4 25" fill="none" stroke="#8897a9" stroke-opacity=".52" stroke-width="1"/>
+      <path d="M191 438l2-2m15-1 2-2m-11 17 2-2m13 12 2-2m-24 11 2-2m13 12 2-2m-20 5 2-2m23 6 2-2m-12 9 2-2m-13 9 2-2m22-2 2-2m-8 10 2-2" fill="none" stroke="#d8a5a6" stroke-width="2.3" opacity=".75"/>
+      <path d="M191 387q-13 5-12 22 0 15-5 29-2 11 5 18 9-6 17-2 10 6 23 0-4-11-3-23 5-29-4-41-9-11-21-3Z" fill="#443740" stroke="#a87b69" stroke-width="1.05"/>
+      <path d="M183 433q-1-34 12-44m-5 58q10-15 10-53m4 53q8-14 5-43m5 40q-1-10 0-20" fill="none" stroke="#86645d" stroke-width="1"/>
+      </g>
     </g>
     <g fill="#ffe6b8" opacity=".7">
       <circle cx="116" cy="274" r="1.7"/>

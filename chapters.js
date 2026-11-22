@@ -240,13 +240,13 @@
       title,
       art: `
         <div class="middle-art middle-mall-art">
-          <img src="assets/mall.svg" alt="Two back-view silhouettes together in a softly lit mall." decoding="async">
+          <img src="assets/mall.svg" alt="Chariz and his girlfriend Raul stand together on their first mall date." decoding="async">
           <div class="middle-mall-glow" aria-hidden="true"></div>
         </div>`,
       caption: 'But with God’s help, we finally met.'
     });
     await ctx.wait(9300);
-    ctx.caption('It was just a simple mall date, and it meant everything to me.');
+    ctx.caption('It was a simple mall date, and being there with her meant everything to me.');
     scene.querySelector('.middle-mall-art').classList.add('is-golden');
     await ctx.wait(17800);
   }

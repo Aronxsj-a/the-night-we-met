@@ -137,6 +137,9 @@
     await waitForMessage(4600);
     hint.hidden = true;
     scene.querySelector('.opening-chat-head h2').textContent = 'Raul';
+    for (const speaker of log.querySelectorAll('.is-in .opening-speaker')) {
+      speaker.textContent = 'Raul';
+    }
     scene.classList.add('opening-chat-identified');
     await ctx.wait(2200);
     scatterMessages(scene, log);
@@ -156,7 +159,7 @@
     await ctx.wait(5000);
 
     const room = ctx.present({className: 'opening-room', html: `
-      <img class="opening-bedroom" src="assets/room-chariz.svg" alt="Chariz sits with her phone in a quiet bedroom">
+      <img class="opening-bedroom" src="assets/room-chariz.svg" alt="Chariz sits with his phone in a quiet bedroom">
       <div class="opening-vignette" aria-hidden="true"></div>
       <div class="opening-room-copy scene-copy">
         <p data-caption>It was just another boring night. I picked up my phone and messaged someone I didn't know.</p>
@@ -172,7 +175,7 @@
 
     ctx.present({className: 'opening-crossing', html: `
       <div class="opening-crossing-sky" aria-hidden="true">${starField()}<i></i><i></i><i></i></div>
-      <img class="opening-bedroom" src="assets/room-raul.svg" alt="A light glows in another bedroom across the night">
+      <img class="opening-bedroom" src="assets/room-raul.svg" alt="In another room, a young woman looks at her phone beside a sketchbook">
       <div class="opening-vignette" aria-hidden="true"></div>
       <div class="opening-thread" aria-hidden="true"><span></span></div>
     `});

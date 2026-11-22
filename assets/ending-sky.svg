@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 748">
+  <title>Chariz and Raul under the same night sky</title>
+  <desc>Chariz, in pink with short dark hair, sits on the left. Raul, in navy with long dark hair, sits on the right.</desc>
   <defs>
     <linearGradient id="sky" x2=".3" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#10122e"/>
@@ -25,12 +27,12 @@
       <stop stop-color="#302841"/>
       <stop offset="1" stop-color="#13152b"/>
     </linearGradient>
-    <linearGradient id="coat-left" x2=".68" y2="1">
-      <stop stop-color="#654959"/>
-      <stop offset=".61" stop-color="#473447"/>
+    <linearGradient id="rose-shirt" x2=".68" y2="1">
+      <stop stop-color="#a46e85"/>
+      <stop offset=".61" stop-color="#76516a"/>
       <stop offset="1" stop-color="#292439"/>
     </linearGradient>
-    <linearGradient id="coat-right" x2=".75" y2="1">
+    <linearGradient id="navy-dress" x2=".75" y2="1">
       <stop stop-color="#53546e"/>
       <stop offset=".62" stop-color="#32364d"/>
       <stop offset="1" stop-color="#23263d"/>
@@ -255,21 +257,22 @@
     <use href="#sprig" transform="translate(24 736)rotate(12)scale(1.14)"/>
   </g>
   <ellipse cx="219" cy="696" rx="107" ry="15" fill="#19192d" opacity=".7"/>
-  <g>
+  <g transform="translate(-68 -5)" data-character="chariz">
     <path d="M222 678c6-21 16-27 42-21 18 4 31 14 36 25-31 10-56 12-78 8Z" fill="#242338"/>
-    <path d="M227 602c6-10 16-13 29-10 11 5 17 17 18 31l6 42c4 8 12 15 11 21-11 7-44 11-65 6-5-10-5-24-6-39-1-18-2-37 7-51Z" fill="url(#coat-right)"/>
-    <path d="M226 604q17-14 39-5" fill="none" stroke="#966f83" stroke-opacity=".46" stroke-width="1.25"/>
+    <path d="M227 602c6-10 16-13 29-10 11 5 17 17 18 31l6 42c4 8 12 15 11 21-11 7-44 11-65 6-5-10-5-24-6-39-1-18-2-37 7-51Z" fill="url(#rose-shirt)"/>
+    <path d="M227 605q12-14 18-7l8 1 8 6" fill="none" stroke="#966f83" stroke-opacity=".46" stroke-width="1.25"/>
     <path d="M235 609q-4 30 2 57m33 4q-2-19-1-29" fill="none" stroke="#24273f" stroke-opacity=".64" stroke-width="1.4" stroke-linecap="round"/>
     <path d="m237 578 19 2 1 16c-5 5-14 5-20-1Z" fill="#8b6472"/>
     <path d="M225 575c-1-15 8-27 21-28 12-1 26 7 26 18 1 6-4 9-3 16l-7 9c-11 4-20 1-26-4l-5-5-3-4Z" fill="url(#hair)"/>
     <path d="M231 561c8-14 23-14 34-6" fill="none" stroke="#82647d" stroke-opacity=".59" stroke-width="1.6" stroke-linecap="round"/>
     <path d="m245 551-10 11 12-6m6-5-4 7m17 17-3 8m-30-7 4 7" fill="none" stroke="#745471" stroke-opacity=".48" stroke-width=".9" stroke-linecap="round"/>
   </g>
-  <g>
+  <g transform="translate(68)" data-character="raul">
     <path d="M145 666c10-16 37-23 57-15 9 4 16 8 20 23l-7 14c-26 9-59 10-82 0 1-8 5-17 12-22Z" fill="#28263b"/>
-    <path d="M161 603c9-9 23-11 40-5 10 5 17 17 21 32 3 12 0 25 7 39 5 9 4 17-1 20-23 7-64 9-86-2-2-11 6-14 8-27 2-14-3-43 11-57Z" fill="url(#coat-left)"/>
+    <path d="M161 603c9-9 23-11 40-5 10 5 17 17 21 32 3 12 0 25 7 39 5 9 4 17-1 20-23 7-64 9-86-2-2-11 6-14 8-27 2-14-3-43 11-57Z" fill="url(#navy-dress)"/>
     <path d="M151 616q11-21 37-18" fill="none" stroke="#ca998d" stroke-opacity=".46" stroke-width="1.25" stroke-linecap="round"/>
     <path d="M154 644c0 13 4 27 0 35m63-42c-2 20 1 29 7 43m-53-16q8 7 21 8" fill="none" stroke="#2e233a" stroke-opacity=".62" stroke-width="1.45" stroke-linecap="round"/>
+    <path d="M157 646l2-2m13 10 2-2m16-9 2-2m14 19 2-2m-29 10 2-2m-26 8 2-2m39 4 2-2m15 8 2-2" fill="none" stroke="#d698a9" opacity=".55" stroke-width="2.5" stroke-linecap="round"/>
     <path d="M154 571c-1-17 14-29 29-26 10 2 22 10 23 24s0 20 7 33l1 25c-9 10-20-3-32 2-12 4-20 5-27-5l2-22c-3-6-4-9-3-31Z" fill="url(#hair)"/>
     <path d="M157 571c3-17 17-25 30-21 10 3 17 10 18 25" fill="none" stroke="#9e7183" stroke-opacity=".47" stroke-width="1.7" stroke-linecap="round"/>
     <path d="M166 567c-7 14 0 28 1 43l-3 12m16-61c-2 20 4 34 3 56m12-49c-2 20 7 34 7 47" fill="none" stroke="#6d4b66" stroke-opacity=".58" stroke-width="1.05" stroke-linecap="round"/>

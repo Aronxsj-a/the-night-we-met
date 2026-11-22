@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800">
 <title>A quiet bedroom with a sketchbook under the stars</title>
-<desc>A young man seen from behind sits at his desk with a lit phone and an open sketchbook.</desc>
+<desc>Raul sits at her desk with a phone and sketchbook. Her long dark hair falls over her navy floral dress.</desc>
 <defs>
   <linearGradient id="wall" x2=".8" y2="1">
     <stop stop-color="#172637"/><stop offset=".42" stop-color="#293d4a"/><stop offset=".79" stop-color="#2c4351"/><stop offset="1" stop-color="#172b40"/>
@@ -30,7 +30,7 @@
     <stop stop-color="#e2b78a"/><stop offset=".62" stop-color="#c0a398"/><stop offset="1" stop-color="#a18b8a"/>
   </linearGradient>
   <linearGradient id="jumper" x2=".7" y2="1">
-    <stop stop-color="#695e65"/><stop offset=".25" stop-color="#515962"/><stop offset=".65" stop-color="#344455"/><stop offset="1" stop-color="#233147"/>
+    <stop stop-color="#5c637e"/><stop offset=".25" stop-color="#444f70"/><stop offset=".65" stop-color="#293756"/><stop offset="1" stop-color="#233147"/>
   </linearGradient>
   <linearGradient id="skin" x2=".65" y2="1">
     <stop stop-color="#a98a7d"/><stop offset=".48" stop-color="#776c77"/><stop offset="1" stop-color="#554e62"/>
@@ -189,7 +189,7 @@
   <path d="M172 605c-14-23-21-50-20-84 1-51 2-100 18-129 12-20 26-26 46-26 27 1 43 10 59 26 16 17 26 32 31 54 2 15-5 35-23 47l6 73-26 38Z" fill="url(#jumper)" stroke="#27384d" stroke-width="2.5"/>
   <path d="M174 404c-9 24-16 61-14 91m7 13q5 43 25 73m-15-119q7 49 20 76m-10-119q4 20 9 30m36-56q22 16 32 46m-35-18q1 17 10 29m-4 74q10 20 22 32" stroke="#a9999d" stroke-opacity=".33" stroke-width="1.4"/>
   <path d="M164 447c-5 25-6 47-4 63m15 16 18 43m36-100q17 35 14 49m8-84q9 12 13 34" stroke="#212e45" stroke-opacity=".58" stroke-width="3"/>
-  <path d="M255 408q11-10 24 6l22 29 7-33 15 3c-1 35-7 55-19 61-15 7-41-20-51-37-8-13-6-24 2-29Z" fill="url(#jumper)" stroke="#2c3a51" stroke-width="2"/>
+  <path d="M255 408q11-10 24 6l22 29 7-33 15 3c-1 35-7 55-19 61-15 7-41-20-51-37-8-13-6-24 2-29Z" fill="url(#skin)" stroke="#2c3a51" stroke-width="2"/>
   <path d="M265 413q17 8 29 30m-5 8q7 9 14 10 8-13 12-38m-8 8 13 2m-14-6 15 3" stroke="#a39ba3" stroke-opacity=".49" stroke-width="1.25"/>
   <path d="M307 410c-1-9 2-15 7-20l5-9q2-3 5 0 1 2-2 7l5-1 5-11q2-4 5-2 2 1 1 5l-3 12q2 13-13 23Z" fill="url(#skin)" stroke="#544f64" stroke-width="1.35"/>
   <path d="M318 400l5 3m-2-13 4-3m3 7 4-7" stroke="#bbb1be" stroke-width=".85" stroke-opacity=".7"/>
@@ -202,10 +202,9 @@
   <path d="M198 381q22 14 53 10l7 9q-27 6-61-8Z" fill="#3c4357" stroke="#665d6e" stroke-width="1"/>
   <path d="M247 364c8-5 16-15 17-28 2-15-6-33-18-42-15-11-34-9-52 1s-23 24-18 42c4 12 12 27 22 33 13 8 31 4 49-6Z" fill="url(#skin)" stroke="#373d52" stroke-width="1.5"/>
   <path d="M248 355q9-4 13-15m-13 19 6-4" stroke="#b2a1a8" stroke-opacity=".56" stroke-width="1"/>
-  <path d="M194 369c-15-15-22-28-22-42-1-17 6-28 18-35 9-9 26-12 34-11 16 0 35 8 39 26l-6-4c5 9 6 17 4 24l-4-9c1 9-4 20-12 26l-5-3c-3 13-12 24-20 26l-7-6-5 5-5-5-2 8-6-7Z" fill="url(#hair)" stroke="#242b40" stroke-width="1.6"/>
-  <path d="M175 322c3-18 10-25 22-30m-12 23c9-19 28-29 45-28m-26 10c13-9 36-4 46 5m-25-.7c11-2 24 4 29 13m-70 9c-1 12 2 22 8 32m10-42c-6 14-6 24 2 42m11-42c-6 14-5 31 1 41m17-46c1 13-3 25-6 35" stroke="#8b7880" stroke-opacity=".39" stroke-width="1.15"/>
-  <path d="M202 290q19-11 38-3m-58 19q5-10 12-12m23 .2q18-3 29 4" stroke="#d09b8b" stroke-opacity=".36" stroke-width=".95"/>
-
+  <path d="M171 481l3-2m21 20 3-2m40-27 3-2m-39-32 3-2m66 21 3-2m-88 78 3-2m61-24 3-2m15 33 3-2m-54-4 3-2" stroke="#d498a3" stroke-width="4" opacity=".55"/>
+  <path d="M196 286q27-16 49 0c23 11 25 34 22 63-3 31 15 44 13 72-1 16 4 34 2 51-20 14-35-3-52 4-14 7-33 1-48 1 8-22-3-39-9-64-6-29 6-40 2-66-5-32 2-49 21-61Z" fill="url(#hair)" stroke="#242b40" stroke-width="1.6"/>
+  <path d="M179 341q-3-35 23-50m-9 19c-14 32 9 59-3 91-7 17 11 32 7 68m19-169c-17 31-7 67 1 94 7 22-3 46 5 75m12-169c17 21 5 58 15 81 13 28 6 49 18 81m-23-165q14 8 16 26" fill="none" stroke="#81768c" stroke-opacity=".51" stroke-width="1.3"/>
   <path d="M147 566c-2-20 11-30 28-31l88 2c19 1 33 17 32 37l-6 105-136-3Z" fill="url(#wood)" stroke="#1d2b40" stroke-width="3"/>
   <path d="M155 558c9-12 16-15 30-15l73 2c16 0 25 8 29 19m-121-7q44 6 99 5m-98 11q45 6 111 7m-109 11 93 7m-85-1 75 8m-92-36 8 99m107-91-5 93" stroke="#a78179" stroke-opacity=".31" stroke-width="1.15"/>
   <path d="M161 642l4 70 9 5 13-1 5-55m85-11-6 66 8 3 8-5 1-72" fill="#252c40" stroke="#172438" stroke-width="2"/>
